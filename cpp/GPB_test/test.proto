@@ -1,0 +1,7 @@
+package p2pchat;
+
+message chatMessage {
+  required string name = 1;
+  required string message = 2;
+}
+
